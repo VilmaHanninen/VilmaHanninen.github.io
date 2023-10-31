@@ -1,0 +1,38 @@
+p {color:black;}
+
+img{width: 550px; max-width: 100%;}
+
+div{background-color: pink;}
+div{font-size: 200%;}
+
+h1 {color:purple}
+
+h2 {color:black}
+
+
+body{text-align: center;}
+
+img {float: right;}
+ol {color: hotpink;}
+
+body {background-color: beige;}
+
+section{background: hotpink;}
+header{background:pink;}
+article{background:white;}
+aside{width: 30%;
+padding-left:15px;
+margin-left:15px;
+float:right;
+font-style:italic;
+Background-color: beige;
+}
+
+footer{padding-bottom:15px;
+padding-top:15px;
+float:bottom;}
+
+figure{width:50px;
+float:right;}
+
+main{background-color:pink;}
