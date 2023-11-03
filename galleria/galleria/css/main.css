@@ -237,7 +237,7 @@ main{
 }
 
 aside{
-	width:100%;
+	width:20%;
 }
 
 figure {
@@ -269,5 +269,11 @@ ul{
 }
 
 h3{
+	color: white;
 	margin: 5px 10px;
+}
+
+@media only screen and (min-width: 600px) {
+	main {width 80%;}
+	aside {width: 20%;}
 }
