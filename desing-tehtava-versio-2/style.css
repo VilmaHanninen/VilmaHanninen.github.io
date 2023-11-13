@@ -111,8 +111,8 @@ margin: 10px;
 	
 	/*Tässä määritellään, miltä valikon linkki näyttää, 
 	kun kursori on sen päällä. Muuta paremmaksi */
-	color: red; 
-	background: yellow; 
+	color: black; 
+	background: #E8C79C; 
 }
 
 /*------- ARTICLE BUTTONS -------------------*/
