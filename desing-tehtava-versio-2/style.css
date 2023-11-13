@@ -223,6 +223,7 @@ article p {
 
 /* "Images" */
 .article-image { 
+	border-radius: 5px;
     max-width: 100%; /*Tämä tekee sen, että kuva ei mene yli reunasta.*/
 
 	/*Kuva voi olla koko artikkelin levyinen tai pienempi. 
