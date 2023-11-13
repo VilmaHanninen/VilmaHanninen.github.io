@@ -18,7 +18,7 @@ html {
 	
 	font-family: 'EB Garamond', serif;
 	color: #5F321C;
-	background-color: #FFFFD6;
+	background: linear-gradient(to bottom,white, #FFFFD6, #FFFFB3);
 	
 	
 	/*Jos määrität html-tagissa fontteja, 
@@ -86,7 +86,7 @@ header h1 {
 }
 
 /*Menu item*/
-#main-menu li a{padding: 15px 15px; border-radius: 5px; background: #ECD1AC;}
+#main-menu li a{padding: 15px 15px; border-radius: 5px; background: #E8C79C;}
 #main-menu li{
 margin: 10px;
 	/*Laita tässä ja marginaalit paddingit paremmin, 
@@ -247,4 +247,5 @@ footer {
 	border-radius: 5px;
 	text-align: center;
 }
+
 
