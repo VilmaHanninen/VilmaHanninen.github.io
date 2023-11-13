@@ -147,7 +147,7 @@ margin: 10px;
 	/*Tässä määritellään, nappi näyttää, 
 	kun kursori on sen päällä. Muuta paremmaksi */
 	color: black; 
-	background: white; 
+	background: #FFFFD6; 
 	border-radius: 5px;
 	
 	/*Voit halutessasi laittaa vaikka koko 
