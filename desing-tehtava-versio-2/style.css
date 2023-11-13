@@ -146,8 +146,9 @@ margin: 10px;
 .button:hover { 
 	/*Tässä määritellään, nappi näyttää, 
 	kun kursori on sen päällä. Muuta paremmaksi */
-	color: red; 
-	background: yellow; 
+	color: black; 
+	background: white; 
+	border-radius: 5px;
 	
 	/*Voit halutessasi laittaa vaikka koko 
 	artikkelin muuttumaan jotenkin hiukan, 
