@@ -1,7 +1,7 @@
 		body {
             font-family: 'Vollkorn', serif;
-            margin: 0;
-            padding: 0;
+			padding: 0px;
+			margin:0px;
 			background: linear-gradient(to bottom, #4E5283, #A3C2E0, white, white);
         }
 
@@ -9,7 +9,8 @@
             background: #333;
             color: white;
             text-align: center;
-            padding: 0;
+            padding: 0px;
+			margin:0px;
 
         }
 		
@@ -56,7 +57,7 @@
 
         article h2 {
             padding: 8px;
-            margin: 0;
+            margin: 0px;
             font-size: 1.2em;
             color: #333;
 			text-align:center;
@@ -71,10 +72,10 @@
         }
 
         footer {
-           
-            padding: 1em;
+			padding:1em;
             background-color: #333;
             color: #FFF;
+			text-align:center;
         }
 		
 		footer p{
@@ -233,15 +234,19 @@ section {
             justify-content: space-between;
             max-width: 1200px;
             margin: auto;
-            padding: 20px;
+            padding: 100px;
         }
 
         .main-content {
             flex: 1;
             background-color: #DDE1E4;
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-top-left-radius: 15px;
+			border-bottom-left-radius:15px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+			text-align:center;
         }
 
         .sidebar {
@@ -249,9 +254,12 @@ section {
             background-color: #333;
             color: white;
             padding: 20px;
-			margin:20px;
-            border-radius: 15px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			margin:0px;
+            border-top-right-radius: 15px;
+			border-bottom-right-radius:15px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
         }
 
         .container h2 {
@@ -265,6 +273,10 @@ section {
 		
 		.sidebar h2{
 			color:white;
+		}
+		.sidebar img {
+			max-width:100%;
+			border-radius:15px;
 		}
 		
 		.sidebar p{
