@@ -10,19 +10,19 @@
             color: white;
             text-align: center;
             padding: 0px;
-			margin:0px;
 
         }
 		
 		header p{
 			color:white;
+			margin:auto;
 		}
 
         main {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            margin: 20px;
+            margin: auto;
 			padding-bottom:50px;
 
         }
@@ -30,11 +30,14 @@
 		main h1{
 			text-align: center;
 			color:white;
+			margin: auto;
+			padding-top:50px;
 		}
 		
 		main p{
 			color:white;
 			text-align:bottom;
+			margin:auto;
 		}
 		
 		
@@ -80,7 +83,7 @@
 		
 		footer p{
 			padding:5px;
-			margin: 5px;
+			margin: auto;
 			width: 600px;
 			text-align: center;
 			padding-bottom: 50px;
@@ -165,7 +168,7 @@
 }
 
 .iso-otsikko{
-	padding-left: 130px;
+	padding-left: 100px;
 	padding-top:40px;
 }
 
