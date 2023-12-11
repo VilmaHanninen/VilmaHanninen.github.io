@@ -4,6 +4,7 @@
 			margin:0px;
 			background: linear-gradient(to bottom, #4E5283, #A3C2E0, white, white);
         }
+		
 
         header {
             background: #333;
@@ -285,3 +286,42 @@ section {
 		.sidebar p{
 			color:white;
 		}
+		
+		@media only screen and (max-width: 768px) {
+    main {
+        padding-bottom: 10px; /* Adjust spacing for smaller screens */
+    }
+
+    article {
+        width: 100%; /* Make articles full width on small screens */
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+
+    .col-md-4 {
+        width: 100%; /* Make col-md-4 full width on small screens */
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+
+    section {
+        padding: 10px; /* Adjust padding for smaller screens */
+        padding-left: 20px; /* Adjust left padding for smaller screens */
+    }
+
+    .container {
+        flex-direction: column; /* Stack main-content and sidebar in a column on small screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .sidebar {
+        width: 100%; /* Make sidebar full width on small screens */
+        margin-top: 10px; /* Adjust margin for smaller screens */
+        border-top-right-radius: 0; /* Remove border radius for smaller screens */
+        border-bottom-right-radius: 0; /* Remove border radius for smaller screens */
+    }
+	
+	footer {
+		display:flex;
+	flex-wrap: wrap;
+	}
+}
+
