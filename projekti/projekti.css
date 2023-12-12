@@ -33,12 +33,32 @@
 			color:white;
 			margin: auto;
 			padding-top:50px;
+			display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: auto;
+			padding-bottom:50px;
 		}
 		
 		main p{
 			color:white;
 			text-align:bottom;
 			margin:auto;
+			display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+			padding-bottom:50px;
+		}
+		
+		.taiteeni{
+			color:white;
+			text-align:bottom;
+			margin:auto;
+			display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: auto;
+			padding-bottom:50px;
 		}
 		
 		
@@ -88,6 +108,7 @@
 			width: 600px;
 			text-align: center;
 			padding-bottom: 50px;
+			padding-left:50px;
 		}
 		
 		
@@ -289,34 +310,42 @@ section {
 		
 		@media only screen and (max-width: 768px) {
     main {
-        padding-bottom: 10px; /* Adjust spacing for smaller screens */
+        padding-bottom: 10px;
     }
+	
+	.taiteeni{
+		padding-bottom: 10px;
+	}
+
+	.h1{
+		padding-bottom: 10px;
+	}
 
     article {
-        width: 100%; /* Make articles full width on small screens */
-        margin: 10px 0; /* Adjust margin for smaller screens */
+        width: 100%; 
+        margin: 10px 0; 
     }
 
     .col-md-4 {
-        width: 100%; /* Make col-md-4 full width on small screens */
-        margin: 10px 0; /* Adjust margin for smaller screens */
+        width: 100%;
+        margin: 10px 0;
     }
 
     section {
-        padding: 10px; /* Adjust padding for smaller screens */
-        padding-left: 20px; /* Adjust left padding for smaller screens */
+        padding: 10px;
+        padding-left: 20px;
     }
 
     .container {
-        flex-direction: column; /* Stack main-content and sidebar in a column on small screens */
-        padding: 10px; /* Adjust padding for smaller screens */
+        flex-direction: column;
+        padding: 10px; 
     }
 
     .sidebar {
-        width: 100%; /* Make sidebar full width on small screens */
-        margin-top: 10px; /* Adjust margin for smaller screens */
-        border-top-right-radius: 0; /* Remove border radius for smaller screens */
-        border-bottom-right-radius: 0; /* Remove border radius for smaller screens */
+        width: 100%;
+        margin-top: 10px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0; 
     }
 	
 	footer {
@@ -324,4 +353,41 @@ section {
 	flex-wrap: wrap;
 	}
 }
+
+		.list-box {
+            border: 2px solid white;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px;
+        }
+
+        .list-header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .list-content {
+            padding: 15px;
+			background: #DDE1E4;
+        }
+
+        .list-item {
+            list-style-type: none;
+            counter-increment: item;
+            border-bottom: 1px solid #bdc3c7;
+            padding: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .list-item:hover {
+            background-color: #333;
+        }
+
+		.uudetcss{
+			background:#333;
+			justify-content:center;
+		}
 
